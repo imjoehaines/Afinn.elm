@@ -1,8 +1,24 @@
 module Afinn exposing (dict)
 
+{-| The [AFINN 165 dataset](https://github.com/fnielsen/afinn/blob/b82d00dcad22a30a06ed047fecb24e47815aac2e/afinn/data/AFINN-en-165.txt)
+available as an Elm `Dict`.
+
+@docs dict
+
+-}
+
 import Dict
 
 
+{-| Get the Afinn Dict
+
+This is a Dict with String keys and number values
+
+The keys are the words found in the AFINN dataset and the numbers the "postive-ness"
+of the word — the higher the number, the more positive the sentiment. If a number
+is negative then it represents a negative sentiment.
+
+-}
 dict : Dict.Dict String number
 dict =
     Dict.fromList
