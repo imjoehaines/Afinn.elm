@@ -2,7 +2,7 @@
     "type": "package",
     "name": "imjoehaines/afinn-165-elm",
     "summary": "The AFINN-165 dataset as an Elm dict",
-    "license": "ODbL-1.0",
+    "license": "MIT",
     "version": "1.0.0",
     "exposed-modules": [
         "Afinn"
