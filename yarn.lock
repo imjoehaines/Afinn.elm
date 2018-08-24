@@ -3,8 +3,8 @@
 
 
 afinn-165@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/afinn-165/-/afinn-165-1.0.0.tgz#fd25508bc459f4050cb5b0b7d7f523b85f8c7c08"
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/afinn-165/-/afinn-165-1.0.2.tgz#11ba700eae4af3e97e72dcf9c7f1249e4bff1db7"
 
 chunk@^0.0.2:
   version "0.0.2"
